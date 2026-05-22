@@ -1,0 +1,84 @@
+
+@media only screen and (max-width:1300px) {
+
+    .singleListingMainContainer {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px;
+    }
+
+    .singleListingHeadingBox {
+        width: 100%;
+        padding: 5px 0px;
+        margin: 0px;
+    }
+
+    .singleListingContainer {
+        width: 100%;
+    }
+
+    #imgSlider {
+        height: 550px;
+    }
+
+    .singleListingInfoBox {
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .singleListingInfoBox > h5{
+        font-size: 1.5rem;
+        background-color: rgba(211, 211, 211, 0.11);
+        padding: 5px;
+    }
+
+    .editBtn{
+        width: 80px;
+        font-size: 1rem;
+    }
+    
+    .deleteBtn{
+        width: 80px;
+        font-size: 1rem;
+    }
+
+    .allReviewContainer {
+        width: 100%;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .reviewCard {
+        width: 100%;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(151, 151, 151, 0.253);
+    }
+    /* edit form */
+    .editForm{
+        font-size: 1.8rem;
+    }
+
+    .editForm > h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .editForm input , .editForm textarea{
+       font-size: 1.8rem;
+    }
+
+    .editBtn2{
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    #imgSlider {
+        height: 350px;
+    }
+
+}
