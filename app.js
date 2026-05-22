@@ -1,4 +1,5 @@
 const express = require('express');
+const PORT = process.env.PORT || 3000;
 const mongoose = require('mongoose');
 const engine = require('ejs-mate');
 const methodOverride = require('method-override')
@@ -77,8 +78,8 @@ main().then(() => {
     console.log("connected to AIRBN database...");
 })
 
-app.listen(3000, () => {
-    console.log("server is listening to port 3000");
+app.listen(PORT, () => {
+    console.log(`server is listening to port ${PORT}`);
 })
 
 // routes middleware 
